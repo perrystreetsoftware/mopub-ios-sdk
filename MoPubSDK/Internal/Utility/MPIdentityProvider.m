@@ -27,7 +27,7 @@ static BOOL gFrequencyCappingIdUsageEnabled = YES;
 
 + (NSString *)identifier
 {
-    return [self _identifier:NO];
+    return [self _identifier:YES];
 }
 
 + (NSString *)obfuscatedIdentifier
